@@ -1,3 +1,11 @@
+'''
+Source: data.cdc.gov/api/views/bi63-dtpu/rows.csv
+
+View the interactive graph here:
+https://rawcdn.githack.com/ekim3483/DataVisualizations/refs/heads/main/plotly/deaths_graph.html
+
+'''
+
 import pandas as pd
 import plotly.express as px
 import dash
