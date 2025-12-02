@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_645a0bc022cad6659c18c8baa4dc0ea6 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_645a0bc022cad6659c18c8baa4dc0ea6" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_645a0bc022cad6659c18c8baa4dc0ea6 = L.map(
+                "map_645a0bc022cad6659c18c8baa4dc0ea6",
+                {
+                    center: [0, 0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 1,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_37d61ecf62dd6023f695c799d493062e = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_645a0bc022cad6659c18c8baa4dc0ea6);
+        
+    
+            var marker_cluster_4477d1ca941ae4333170947bc66a37e4 = L.markerClusterGroup(
+                {}
+            );
+            map_645a0bc022cad6659c18c8baa4dc0ea6.addLayer(marker_cluster_4477d1ca941ae4333170947bc66a37e4);
+        
+    
+            var marker_de2e11d140e869f15adc310762266033 = L.marker(
+                [32.9714, -79.7234],
+                {}
+            ).addTo(marker_cluster_4477d1ca941ae4333170947bc66a37e4);
+        
+    
+        var popup_93a66cebb10e956fa174706cddba25f2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_313a83a9aa7bd2f157a2f416fa19021c = $(`<div id="html_313a83a9aa7bd2f157a2f416fa19021c" style="width: 100.0%; height: 100.0%;">2017-05-30 / F / 20 / Awendaw, Charleston County / Touching a shark / Right hand bitten by hooked shark PROVOKED INCIDENT / 3' shark</div>`)[0];
+            popup_93a66cebb10e956fa174706cddba25f2.setContent(html_313a83a9aa7bd2f157a2f416fa19021c);
+        
+
+        marker_de2e11d140e869f15adc310762266033.bindPopup(popup_93a66cebb10e956fa174706cddba25f2)
+        ;
+
+        
+    
+    
+            var marker_6e1cb00a867d5a61c2d3aa8151700105 = L.marker(
+                [-12.6235, 141.879],
+                {}
+            ).addTo(marker_cluster_4477d1ca941ae4333170947bc66a37e4);
+        
+    
+        var popup_3006dd349c479b3b0cfda525f19b8069 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_23caa6c7b17863e28521d65f9fd22913 = $(`<div id="html_23caa6c7b17863e28521d65f9fd22913" style="width: 100.0%; height: 100.0%;">2017-05-06 / M / 29 / Weipa / Attempting to lasso a shark / Thigh nipped PROVOKED INCIDENT / 9' shark</div>`)[0];
+            popup_3006dd349c479b3b0cfda525f19b8069.setContent(html_23caa6c7b17863e28521d65f9fd22913);
+        
+
+        marker_6e1cb00a867d5a61c2d3aa8151700105.bindPopup(popup_3006dd349c479b3b0cfda525f19b8069)
+        ;
+
+        
+    
+    
+            var marker_9058e46457119d056ba1e45fc1caf2e5 = L.marker(
+                [-3.853808, -32.423786],
+                {}
+            ).addTo(marker_cluster_4477d1ca941ae4333170947bc66a37e4);
+        
+    
+        var popup_56b99cf98c17e84a96f1f1c9aa730f02 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6cc766b2443f780a7ac0829fc7418a4a = $(`<div id="html_6cc766b2443f780a7ac0829fc7418a4a" style="width: 100.0%; height: 100.0%;">2017-02-06 / F / 35 / Fernando de Noronha Marine Park / Grabbing shark for a selfie / Minor injury to finger, PROVOKED INCIDENT / Lemon shark pup</div>`)[0];
+            popup_56b99cf98c17e84a96f1f1c9aa730f02.setContent(html_6cc766b2443f780a7ac0829fc7418a4a);
+        
+
+        marker_9058e46457119d056ba1e45fc1caf2e5.bindPopup(popup_56b99cf98c17e84a96f1f1c9aa730f02)
+        ;
+
+        
+    
+    
+            var marker_9b6bc6f27cb418a4f222c0f0f1be772f = L.marker(
+                [-36.889, 149.91],
+                {}
+            ).addTo(marker_cluster_4477d1ca941ae4333170947bc66a37e4);
+        
+    
+        var popup_15185a330f577dbd43cbfc793aa3829f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_12d10eda3b2bdb24d7f33a16023d04c2 = $(`<div id="html_12d10eda3b2bdb24d7f33a16023d04c2" style="width: 100.0%; height: 100.0%;">2016-12-06 / M / 20 / Merimbula / Surf fishing / Lacerations to both hands while attempting to land a hooked shark PROVOKED INCIDENT / Wobbegong shark, 2m</div>`)[0];
+            popup_15185a330f577dbd43cbfc793aa3829f.setContent(html_12d10eda3b2bdb24d7f33a16023d04c2);
+        
+
+        marker_9b6bc6f27cb418a4f222c0f0f1be772f.bindPopup(popup_15185a330f577dbd43cbfc793aa3829f)
+        ;
+
+        
+    
+    
+            var marker_012542a9f05b75f765d611c595da00d2 = L.marker(
+                [-38.26789, 144.66193],
+                {}
+            ).addTo(marker_cluster_4477d1ca941ae4333170947bc66a37e4);
+        
+    
+        var popup_1f9b7f2ea156c9a94c34690a9eee2a1f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_42f9d2e1c52b82a0249ba7713883a47b = $(`<div id="html_42f9d2e1c52b82a0249ba7713883a47b" style="width: 100.0%; height: 100.0%;">2016-11-28 / M / 73 / Queenscliff / Fishing / Laceration to right hand by hooked & gaffed shark. PROVOKED INCIDENT / Broadnose sevengill shark, 1.5 m</div>`)[0];
+            popup_1f9b7f2ea156c9a94c34690a9eee2a1f.setContent(html_42f9d2e1c52b82a0249ba7713883a47b);
+        
+
+        marker_012542a9f05b75f765d611c595da00d2.bindPopup(popup_1f9b7f2ea156c9a94c34690a9eee2a1f)
+        ;
+
+        
+    
+    
+            var marker_5c51c8c88e7c01cd4fdd09acb92e3c6c = L.marker(
+                [24.691402, -81.189682],
+                {}
+            ).addTo(marker_cluster_4477d1ca941ae4333170947bc66a37e4);
+        
+    
+        var popup_e490a88e4bc1140cdf97cb98f6b71d78 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4df1e36e264a1c297744499f418a55d6 = $(`<div id="html_4df1e36e264a1c297744499f418a55d6" style="width: 100.0%; height: 100.0%;">2016-07-27 / M / 43 / Florida Keys, Monroe County / Lobstering / Laceration to left forearm PROVOKED INCIDENT / Nurse shark, 4'</div>`)[0];
+            popup_e490a88e4bc1140cdf97cb98f6b71d78.setContent(html_4df1e36e264a1c297744499f418a55d6);
+        
+
+        marker_5c51c8c88e7c01cd4fdd09acb92e3c6c.bindPopup(popup_e490a88e4bc1140cdf97cb98f6b71d78)
+        ;
+
+        
+    
+    
+            var marker_c1cccd3ea9b0a980df7cfd3cd7081ebd = L.marker(
+                [-27.936333, 153.429333],
+                {}
+            ).addTo(marker_cluster_4477d1ca941ae4333170947bc66a37e4);
+        
+    
+        var popup_6f63e16dec27321684af3b33106b03c3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8e649783c398280760d6776c872de07e = $(`<div id="html_8e649783c398280760d6776c872de07e" style="width: 100.0%; height: 100.0%;">2016-07-20 / M / 31 / 20 k off The Spit, off the Gold Coast / Fishing / Laceration to left calf from hooked shark PROVOKED INCIDENT / reef shark, 1m</div>`)[0];
+            popup_6f63e16dec27321684af3b33106b03c3.setContent(html_8e649783c398280760d6776c872de07e);
+        
+
+        marker_c1cccd3ea9b0a980df7cfd3cd7081ebd.bindPopup(popup_6f63e16dec27321684af3b33106b03c3)
+        ;
+
+        
+    
+    
+            var marker_694d5c29e632891c3ef38e9feeb2921f = L.marker(
+                [42.62455, -70.662365],
+                {}
+            ).addTo(marker_cluster_4477d1ca941ae4333170947bc66a37e4);
+        
+    
+        var popup_abaf8a074ec53fceb54461f0f1d0b69e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b12e7f0642f62199ac1133bb6194368e = $(`<div id="html_b12e7f0642f62199ac1133bb6194368e" style="width: 100.0%; height: 100.0%;">2016-07-07 / M / 59 / Off Gloucester, Essec County / Fishing / Fin of hooked shark injured fisherman's forearm. . PROVOKED INCIDENT / dogfish shark</div>`)[0];
+            popup_abaf8a074ec53fceb54461f0f1d0b69e.setContent(html_b12e7f0642f62199ac1133bb6194368e);
+        
+
+        marker_694d5c29e632891c3ef38e9feeb2921f.bindPopup(popup_abaf8a074ec53fceb54461f0f1d0b69e)
+        ;
+
+        
+    
+    
+            var marker_482233dee9c4a3e5541c74ce13c29020 = L.marker(
+                [-16.747201, 145.668544987573],
+                {}
+            ).addTo(marker_cluster_4477d1ca941ae4333170947bc66a37e4);
+        
+    
+        var popup_fedfdb1349c10a7f064dbe86f239598b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f513ba7b8943952b3c211d0628bd6279 = $(`<div id="html_f513ba7b8943952b3c211d0628bd6279" style="width: 100.0%; height: 100.0%;">2016-07-04 / M / 34 / Palm Cove  / Fishing / Right thigh injured by hooked pregnant female shark PROVOKED INCIDENT / Tawny nurse shark</div>`)[0];
+            popup_fedfdb1349c10a7f064dbe86f239598b.setContent(html_f513ba7b8943952b3c211d0628bd6279);
+        
+
+        marker_482233dee9c4a3e5541c74ce13c29020.bindPopup(popup_fedfdb1349c10a7f064dbe86f239598b)
+        ;
+
+        
+    
+    
+            var marker_b2b758e6a74b97172a8ca1b33b2edbd7 = L.marker(
+                [-23.144722, 113.77639],
+                {}
+            ).addTo(marker_cluster_4477d1ca941ae4333170947bc66a37e4);
+        
+    
+        var popup_7a7d9cf3c399abd1fee2cfe9b206ed02 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4ad7cc3b1d18f771650cee3e6cf3cd57 = $(`<div id="html_4ad7cc3b1d18f771650cee3e6cf3cd57" style="width: 100.0%; height: 100.0%;">2016-06-15 / M / 19 / Coral Bay / Spearfishing / No injury but shark punctured his wetsuit after he prodded it with his spear PROVOKED INCIDENT / 5' shark</div>`)[0];
+            popup_7a7d9cf3c399abd1fee2cfe9b206ed02.setContent(html_4ad7cc3b1d18f771650cee3e6cf3cd57);
+        
+
+        marker_b2b758e6a74b97172a8ca1b33b2edbd7.bindPopup(popup_7a7d9cf3c399abd1fee2cfe9b206ed02)
+        ;
+
+        
+    
+    
+            var marker_7c7c1a2d4368525a3addc91315e2e58d = L.marker(
+                [26.3895878, -80.1230772],
+                {}
+            ).addTo(marker_cluster_4477d1ca941ae4333170947bc66a37e4);
+        
+    
+        var popup_efa987ebedc82acf95e8d1631b8d395b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9e3638e88be1f805e0b2c07b0557c3dd = $(`<div id="html_9e3638e88be1f805e0b2c07b0557c3dd" style="width: 100.0%; height: 100.0%;">2016-05-15 / F / 23 / Boca Raton, Palm Beach County / Teasing a shark / Arm grabbed PROVOKED INCIDENT / Nurse shark, 2'</div>`)[0];
+            popup_efa987ebedc82acf95e8d1631b8d395b.setContent(html_9e3638e88be1f805e0b2c07b0557c3dd);
+        
+
+        marker_7c7c1a2d4368525a3addc91315e2e58d.bindPopup(popup_efa987ebedc82acf95e8d1631b8d395b)
+        ;
+
+        
+    
+    
+            var marker_bd6eb97b55fb49bddca807b7c1630396 = L.marker(
+                [-36.7611, 175.496],
+                {}
+            ).addTo(marker_cluster_4477d1ca941ae4333170947bc66a37e4);
+        
+    
+        var popup_9d648a195c483a3bf4e2911d8c46bd38 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_15d4f2f0d844bc484e57fb8d0b6b042c = $(`<div id="html_15d4f2f0d844bc484e57fb8d0b6b042c" style="width: 100.0%; height: 100.0%;">2016-05-02 / M / 39 / Cormandel / Fishing / Foot bitten by landed shark PROVOKED INCIDENT / Mako shark, 1.5 m [5'] </div>`)[0];
+            popup_9d648a195c483a3bf4e2911d8c46bd38.setContent(html_15d4f2f0d844bc484e57fb8d0b6b042c);
+        
+
+        marker_bd6eb97b55fb49bddca807b7c1630396.bindPopup(popup_9d648a195c483a3bf4e2911d8c46bd38)
+        ;
+
+        
+    
+    
+            var marker_d2d0d0336c198fa54ca23e1971f926b3 = L.marker(
+                [-16.6008, -143.7166],
+                {}
+            ).addTo(marker_cluster_4477d1ca941ae4333170947bc66a37e4);
+        
+    
+        var popup_bf50a932546f657b72f34eae019b915b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_627c853bab2d2cc41598f753b5b2bdc0 = $(`<div id="html_627c853bab2d2cc41598f753b5b2bdc0" style="width: 100.0%; height: 100.0%;">2016-04-18 / M / 26 / Makemo Atoll / Spearfishing / Severe lacerations to right forearm, hand and calf from speared shark PROVOKED INCIDENT / Grey reef shark, 2 m</div>`)[0];
+            popup_bf50a932546f657b72f34eae019b915b.setContent(html_627c853bab2d2cc41598f753b5b2bdc0);
+        
+
+        marker_d2d0d0336c198fa54ca23e1971f926b3.bindPopup(popup_bf50a932546f657b72f34eae019b915b)
+        ;
+
+        
+    
+    
+            var marker_340ed95d7a0e697418909c69c20493d1 = L.marker(
+                [25.025885, -78.035889],
+                {}
+            ).addTo(marker_cluster_4477d1ca941ae4333170947bc66a37e4);
+        
+    
+        var popup_3ed1c07e463c21e300b6cb1d4ca7cd7a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_27eda0470f994e8314984219b317429f = $(`<div id="html_27eda0470f994e8314984219b317429f" style="width: 100.0%; height: 100.0%;"><NA></div>`)[0];
+            popup_3ed1c07e463c21e300b6cb1d4ca7cd7a.setContent(html_27eda0470f994e8314984219b317429f);
+        
+
+        marker_340ed95d7a0e697418909c69c20493d1.bindPopup(popup_3ed1c07e463c21e300b6cb1d4ca7cd7a)
+        ;
+
+        
+    
+    
+            var marker_514666f269fb2817a6e8a9312a52ee5d = L.marker(
+                [34.0817, -118.9808],
+                {}
+            ).addTo(marker_cluster_4477d1ca941ae4333170947bc66a37e4);
+        
+    
+        var popup_22ef0830ee7d54c3ca74ae0731ef9d50 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f830644e7a8eefb5e07e14747cf34c36 = $(`<div id="html_f830644e7a8eefb5e07e14747cf34c36" style="width: 100.0%; height: 100.0%;">2015-09-05 / M / 29 / Deer Creek Beach, Ventura County / Kayak Fishing / Laceration to dorsum of foot by hooked shark  PROVOKED INCIDENT / Hammerhead shark.</div>`)[0];
+            popup_22ef0830ee7d54c3ca74ae0731ef9d50.setContent(html_f830644e7a8eefb5e07e14747cf34c36);
+        
+
+        marker_514666f269fb2817a6e8a9312a52ee5d.bindPopup(popup_22ef0830ee7d54c3ca74ae0731ef9d50)
+        ;
+
+        
+    
+    
+            var marker_2ac3b5c7ec360b7700d64a5bde8e1f05 = L.marker(
+                [32.478, -119.215],
+                {}
+            ).addTo(marker_cluster_4477d1ca941ae4333170947bc66a37e4);
+        
+    
+        var popup_2be37b528f02833d30955719b50556a3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a600819926285663f2e226c0c09edc6f = $(`<div id="html_a600819926285663f2e226c0c09edc6f" style="width: 100.0%; height: 100.0%;">2015-08-10 / M / 57 / Cortes Bank / Spearfishing / Right hand bitten  PROVOKED INCIDENT / Hammerhead shark. 6' to 7'</div>`)[0];
+            popup_2be37b528f02833d30955719b50556a3.setContent(html_a600819926285663f2e226c0c09edc6f);
+        
+
+        marker_2ac3b5c7ec360b7700d64a5bde8e1f05.bindPopup(popup_2be37b528f02833d30955719b50556a3)
+        ;
+
+        
+    
+    
+            var marker_9b3e3b5f14e8076ae60a9c3ec85a51b1 = L.marker(
+                [32.842674, -117.257767],
+                {}
+            ).addTo(marker_cluster_4477d1ca941ae4333170947bc66a37e4);
+        
+    
+        var popup_c4f98f8e1eeb47349a90620ce48eed0a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b5c2fb72ba0aa8276771ba3ef167aa2d = $(`<div id="html_b5c2fb72ba0aa8276771ba3ef167aa2d" style="width: 100.0%; height: 100.0%;">2015-07-23 / M / 31 / La Jolla, San Diego County / Kayak Fishing / No injury to occupant. Kayak bitten by gaffed shark. PROVOKED INCIDENT / Mako shark, 100-lb</div>`)[0];
+            popup_c4f98f8e1eeb47349a90620ce48eed0a.setContent(html_b5c2fb72ba0aa8276771ba3ef167aa2d);
+        
+
+        marker_9b3e3b5f14e8076ae60a9c3ec85a51b1.bindPopup(popup_c4f98f8e1eeb47349a90620ce48eed0a)
+        ;
+
+        
+    
+    
+            var marker_071e412228a534fc487565d065de33d1 = L.marker(
+                [-31.997, 115.5402],
+                {}
+            ).addTo(marker_cluster_4477d1ca941ae4333170947bc66a37e4);
+        
+    
+        var popup_7dc1f91707f06a0b36e81767c5eab341 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ce3f507f9041512b25165139b8b1b537 = $(`<div id="html_ce3f507f9041512b25165139b8b1b537" style="width: 100.0%; height: 100.0%;">2015-06-25 / M / 19 / Rottnest Island / Swimming / Minor lacerations to forearm when he grabbed shark by its tail     PROVOKED INCIDENT / Wobbegong shark</div>`)[0];
+            popup_7dc1f91707f06a0b36e81767c5eab341.setContent(html_ce3f507f9041512b25165139b8b1b537);
+        
+
+        marker_071e412228a534fc487565d065de33d1.bindPopup(popup_7dc1f91707f06a0b36e81767c5eab341)
+        ;
+
+        
+    
+    
+            var marker_aec79aab6e82c28acbef2da993e0a3cf = L.marker(
+                [23.249414, -106.41114],
+                {}
+            ).addTo(marker_cluster_4477d1ca941ae4333170947bc66a37e4);
+        
+    
+        var popup_7ca78b49a7d09dfd56932f820a21def2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d50573c64225c07c6f97aa0802be167e = $(`<div id="html_d50573c64225c07c6f97aa0802be167e" style="width: 100.0%; height: 100.0%;"><NA></div>`)[0];
+            popup_7ca78b49a7d09dfd56932f820a21def2.setContent(html_d50573c64225c07c6f97aa0802be167e);
+        
+
+        marker_aec79aab6e82c28acbef2da993e0a3cf.bindPopup(popup_7ca78b49a7d09dfd56932f820a21def2)
+        ;
+
+        
+    
+    
+            var marker_9f2dc6df7e6382845aa48c47e412a0aa = L.marker(
+                [20.878525, -156.683746],
+                {}
+            ).addTo(marker_cluster_4477d1ca941ae4333170947bc66a37e4);
+        
+    
+        var popup_a1792f0180a9870b1d0b322c64bad622 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c57bba23255baac2a3e03019384cfe64 = $(`<div id="html_c57bba23255baac2a3e03019384cfe64" style="width: 100.0%; height: 100.0%;">2015-01-27 / M / 20 / Lahaina / Shark fishing / Lacerations to calf by hooked shark PROVOKED INCIDENT / 4' shark</div>`)[0];
+            popup_a1792f0180a9870b1d0b322c64bad622.setContent(html_c57bba23255baac2a3e03019384cfe64);
+        
+
+        marker_9f2dc6df7e6382845aa48c47e412a0aa.bindPopup(popup_a1792f0180a9870b1d0b322c64bad622)
+        ;
+
+        
+    
+    
+            var marker_5c66119be973916573e7ca05da2fee8b = L.marker(
+                [-37.0201, -144.9646],
+                {}
+            ).addTo(marker_cluster_4477d1ca941ae4333170947bc66a37e4);
+        
+    
+        var popup_40f1bd90f7666bc48abe964dd9f6f81b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c124911b98a8e64a44b2cb603d8984bf = $(`<div id="html_c124911b98a8e64a44b2cb603d8984bf" style="width: 100.0%; height: 100.0%;">2014-12-28 / M / 40s / Paradise Beach / Fishing / Laceration to calf when he fell on shark he had caught PROVOKED INCIDENT / 1.5 m shark</div>`)[0];
+            popup_40f1bd90f7666bc48abe964dd9f6f81b.setContent(html_c124911b98a8e64a44b2cb603d8984bf);
+        
+
+        marker_5c66119be973916573e7ca05da2fee8b.bindPopup(popup_40f1bd90f7666bc48abe964dd9f6f81b)
+        ;
+
+        
+    
+    
+            var marker_16a07fea27f1a6d09ed14100eaa39c1a = L.marker(
+                [36.7446588, -3.5166661],
+                {}
+            ).addTo(marker_cluster_4477d1ca941ae4333170947bc66a37e4);
+        
+    
+        var popup_4b2e97a98147edea5fa86149caddbde2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ec311ff2f26c32105e65e827be8e3b18 = $(`<div id="html_ec311ff2f26c32105e65e827be8e3b18" style="width: 100.0%; height: 100.0%;"><NA></div>`)[0];
+            popup_4b2e97a98147edea5fa86149caddbde2.setContent(html_ec311ff2f26c32105e65e827be8e3b18);
+        
+
+        marker_16a07fea27f1a6d09ed14100eaa39c1a.bindPopup(popup_4b2e97a98147edea5fa86149caddbde2)
+        ;
+
+        
+    
+    
+            var marker_aa070092aff4ebf27e1a884f541d1d8f = L.marker(
+                [-16.583331, 59.6166642],
+                {}
+            ).addTo(marker_cluster_4477d1ca941ae4333170947bc66a37e4);
+        
+    
+        var popup_a007b2c20c5df5d49b18880a53e71783 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9fefee6fdf19a3680db534c38bf838e0 = $(`<div id="html_9fefee6fdf19a3680db534c38bf838e0" style="width: 100.0%; height: 100.0%;"><NA></div>`)[0];
+            popup_a007b2c20c5df5d49b18880a53e71783.setContent(html_9fefee6fdf19a3680db534c38bf838e0);
+        
+
+        marker_aa070092aff4ebf27e1a884f541d1d8f.bindPopup(popup_a007b2c20c5df5d49b18880a53e71783)
+        ;
+
+        
+    
+    
+            var marker_63a812dfcff01f5df1a8ab141b9d8ab0 = L.marker(
+                [-32.017, 152.567],
+                {}
+            ).addTo(marker_cluster_4477d1ca941ae4333170947bc66a37e4);
+        
+    
+        var popup_1fc691e638755d86bc6d72b3c0f32fd8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_464bec167e0832f4a972a70333a05fd6 = $(`<div id="html_464bec167e0832f4a972a70333a05fd6" style="width: 100.0%; height: 100.0%;"><NA></div>`)[0];
+            popup_1fc691e638755d86bc6d72b3c0f32fd8.setContent(html_464bec167e0832f4a972a70333a05fd6);
+        
+
+        marker_63a812dfcff01f5df1a8ab141b9d8ab0.bindPopup(popup_1fc691e638755d86bc6d72b3c0f32fd8)
+        ;
+
+        
+    
+    
+            var marker_11ffc963a5f0e2dd5158229f678899a8 = L.marker(
+                [27.0673711, -80.3994412],
+                {}
+            ).addTo(marker_cluster_4477d1ca941ae4333170947bc66a37e4);
+        
+    
+        var popup_85d8e6aef66d2b259455f13bb678edad = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3ddd66652210ae7d17bf4c6ebd71cac9 = $(`<div id="html_3ddd66652210ae7d17bf4c6ebd71cac9" style="width: 100.0%; height: 100.0%;">2014-09-02 / M / 52 / Fletcher Beach, Hutchinson Island, Martin County / Fishing / Bitten twice on the leg by a shark he was attempting to free from his line PROVOKED INCIDENT / 3' to 4' shark</div>`)[0];
+            popup_85d8e6aef66d2b259455f13bb678edad.setContent(html_3ddd66652210ae7d17bf4c6ebd71cac9);
+        
+
+        marker_11ffc963a5f0e2dd5158229f678899a8.bindPopup(popup_85d8e6aef66d2b259455f13bb678edad)
+        ;
+
+        
+    
+    
+            var marker_a445c2ec92039e86e01df5dece2956e4 = L.marker(
+                [38.2292831, -75.14352],
+                {}
+            ).addTo(marker_cluster_4477d1ca941ae4333170947bc66a37e4);
+        
+    
+        var popup_e6e5974dfbcd766627e8f1dfef24df18 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b40f806ff08df9ffe02c40d100567432 = $(`<div id="html_b40f806ff08df9ffe02c40d100567432" style="width: 100.0%; height: 100.0%;"><NA></div>`)[0];
+            popup_e6e5974dfbcd766627e8f1dfef24df18.setContent(html_b40f806ff08df9ffe02c40d100567432);
+        
+
+        marker_a445c2ec92039e86e01df5dece2956e4.bindPopup(popup_e6e5974dfbcd766627e8f1dfef24df18)
+        ;
+
+        
+    
+    
+            var marker_48cae680083b9b9f23adbb5d34353dac = L.marker(
+                [29.725767, -84.983246],
+                {}
+            ).addTo(marker_cluster_4477d1ca941ae4333170947bc66a37e4);
+        
+    
+        var popup_64b01d3f7b42c09fc8d96c3c31d41e1d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a9c70fd0e66ec86bf48eec8f14addce4 = $(`<div id="html_a9c70fd0e66ec86bf48eec8f14addce4" style="width: 100.0%; height: 100.0%;"><NA></div>`)[0];
+            popup_64b01d3f7b42c09fc8d96c3c31d41e1d.setContent(html_a9c70fd0e66ec86bf48eec8f14addce4);
+        
+
+        marker_48cae680083b9b9f23adbb5d34353dac.bindPopup(popup_64b01d3f7b42c09fc8d96c3c31d41e1d)
+        ;
+
+        
+    
+    
+            var marker_fc7c994cb35c041859d0e180e9ce5fd1 = L.marker(
+                [33.881248, -118.407211],
+                {}
+            ).addTo(marker_cluster_4477d1ca941ae4333170947bc66a37e4);
+        
+    
+        var popup_7435d78ada07c3d2593d833d1ad35f4b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3d394e3e5d4e079c78fed6e5f5882796 = $(`<div id="html_3d394e3e5d4e079c78fed6e5f5882796" style="width: 100.0%; height: 100.0%;"><NA></div>`)[0];
+            popup_7435d78ada07c3d2593d833d1ad35f4b.setContent(html_3d394e3e5d4e079c78fed6e5f5882796);
+        
+
+        marker_fc7c994cb35c041859d0e180e9ce5fd1.bindPopup(popup_7435d78ada07c3d2593d833d1ad35f4b)
+        ;
+
+        
+    
+    
+            var marker_21d270a542710591ebd4554230fab6f3 = L.marker(
+                [-16.376498494, 123.954829514],
+                {}
+            ).addTo(marker_cluster_4477d1ca941ae4333170947bc66a37e4);
+        
+    
+        var popup_3338c703007b7ae53e0d6ece1990ea5a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_140f606b2611f6192660a98f000cfaf9 = $(`<div id="html_140f606b2611f6192660a98f000cfaf9" style="width: 100.0%; height: 100.0%;"><NA></div>`)[0];
+            popup_3338c703007b7ae53e0d6ece1990ea5a.setContent(html_140f606b2611f6192660a98f000cfaf9);
+        
+
+        marker_21d270a542710591ebd4554230fab6f3.bindPopup(popup_3338c703007b7ae53e0d6ece1990ea5a)
+        ;
+
+        
+    
+    
+            var marker_8c7e51ed08590fff17cd757a10cd830f = L.marker(
+                [-31.840233, 145.612793],
+                {}
+            ).addTo(marker_cluster_4477d1ca941ae4333170947bc66a37e4);
+        
+    
+        var popup_61a933b47e9e5497f4238db23cacf5e3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_215ac94e0cf540468e9ae425970a59e8 = $(`<div id="html_215ac94e0cf540468e9ae425970a59e8" style="width: 100.0%; height: 100.0%;">2014-05-22 / M / 10 / The Australian Shark and Ray Centre / Teasing a shark / Cut to tip of finger by a captive shark PROVOKED INCIDENT /  Tawney nurse shark, 1m</div>`)[0];
+            popup_61a933b47e9e5497f4238db23cacf5e3.setContent(html_215ac94e0cf540468e9ae425970a59e8);
+        
+
+        marker_8c7e51ed08590fff17cd757a10cd830f.bindPopup(popup_61a933b47e9e5497f4238db23cacf5e3)
+        ;
+
+        
+    
+    
+            var marker_52162e69919903c8e57f2613fa1a8c99 = L.marker(
+                [-33.600395, 26.891699],
+                {}
+            ).addTo(marker_cluster_4477d1ca941ae4333170947bc66a37e4);
+        
+    
+        var popup_19822b7b502e56a8e94b0a928772bfaf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9e07be088cb8bd9f33b064190dadcd71 = $(`<div id="html_9e07be088cb8bd9f33b064190dadcd71" style="width: 100.0%; height: 100.0%;"><NA></div>`)[0];
+            popup_19822b7b502e56a8e94b0a928772bfaf.setContent(html_9e07be088cb8bd9f33b064190dadcd71);
+        
+
+        marker_52162e69919903c8e57f2613fa1a8c99.bindPopup(popup_19822b7b502e56a8e94b0a928772bfaf)
+        ;
+
+        
+    
+    
+            var marker_e165ffe666e7b1dee650cc27872497ff = L.marker(
+                [10.536421, -61.311951],
+                {}
+            ).addTo(marker_cluster_4477d1ca941ae4333170947bc66a37e4);
+        
+    
+        var popup_c522106ca0512b4c7f4959d1ce5bbea3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c778e668e1d4abecef65e9a0a48b94d3 = $(`<div id="html_c778e668e1d4abecef65e9a0a48b94d3" style="width: 100.0%; height: 100.0%;"><NA></div>`)[0];
+            popup_c522106ca0512b4c7f4959d1ce5bbea3.setContent(html_c778e668e1d4abecef65e9a0a48b94d3);
+        
+
+        marker_e165ffe666e7b1dee650cc27872497ff.bindPopup(popup_c522106ca0512b4c7f4959d1ce5bbea3)
+        ;
+
+        
+    
+    
+            var marker_8b13a268064149734bd99113951e79cc = L.marker(
+                [-33.525501, 151.319595],
+                {}
+            ).addTo(marker_cluster_4477d1ca941ae4333170947bc66a37e4);
+        
+    
+        var popup_0a23a20bf7df727eb2bc4d63ab9cb8ff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_268ecc14bfa2168f4eab15ad4338faad = $(`<div id="html_268ecc14bfa2168f4eab15ad4338faad" style="width: 100.0%; height: 100.0%;"><NA></div>`)[0];
+            popup_0a23a20bf7df727eb2bc4d63ab9cb8ff.setContent(html_268ecc14bfa2168f4eab15ad4338faad);
+        
+
+        marker_8b13a268064149734bd99113951e79cc.bindPopup(popup_0a23a20bf7df727eb2bc4d63ab9cb8ff)
+        ;
+
+        
+    
+    
+            var marker_401bdf8bda73a14e0213da9d786ca074 = L.marker(
+                [25.28389, -76.33083],
+                {}
+            ).addTo(marker_cluster_4477d1ca941ae4333170947bc66a37e4);
+        
+    
+        var popup_97bdc64e0ab4c2d881a41ca28a697c56 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_461419407bb5df245c309349d4c4da9a = $(`<div id="html_461419407bb5df245c309349d4c4da9a" style="width: 100.0%; height: 100.0%;"><NA></div>`)[0];
+            popup_97bdc64e0ab4c2d881a41ca28a697c56.setContent(html_461419407bb5df245c309349d4c4da9a);
+        
+
+        marker_401bdf8bda73a14e0213da9d786ca074.bindPopup(popup_97bdc64e0ab4c2d881a41ca28a697c56)
+        ;
+
+        
+    
+    
+            var marker_8bcbde3e6b0ca2b34cc3dbfea8d39ee7 = L.marker(
+                [31.801447, 34.643497],
+                {}
+            ).addTo(marker_cluster_4477d1ca941ae4333170947bc66a37e4);
+        
+    
+        var popup_2ebb9c2d77796db6e98abd56a9639206 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3479e34ffbe58d7aaf7702f3aa705ae7 = $(`<div id="html_3479e34ffbe58d7aaf7702f3aa705ae7" style="width: 100.0%; height: 100.0%;"><NA></div>`)[0];
+            popup_2ebb9c2d77796db6e98abd56a9639206.setContent(html_3479e34ffbe58d7aaf7702f3aa705ae7);
+        
+
+        marker_8bcbde3e6b0ca2b34cc3dbfea8d39ee7.bindPopup(popup_2ebb9c2d77796db6e98abd56a9639206)
+        ;
+
+        
+    
+    
+            var marker_d8fc73448bdf02baf5dcf90ae082e1e1 = L.marker(
+                [29.036013, -80.964966],
+                {}
+            ).addTo(marker_cluster_4477d1ca941ae4333170947bc66a37e4);
+        
+    
+        var popup_bd87b7539a462b319738ea6877609a1d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a33fdad747afedf7a5819b79a1877d16 = $(`<div id="html_a33fdad747afedf7a5819b79a1877d16" style="width: 100.0%; height: 100.0%;">2013-09-07 / M / 43 / New Smyrna Beach,  Volusia County / Surfing / Foot bitten when he accidentally jumped onto the shark PROVOKED INCIDENT / 3' shark</div>`)[0];
+            popup_bd87b7539a462b319738ea6877609a1d.setContent(html_a33fdad747afedf7a5819b79a1877d16);
+        
+
+        marker_d8fc73448bdf02baf5dcf90ae082e1e1.bindPopup(popup_bd87b7539a462b319738ea6877609a1d)
+        ;
+
+        
+    
+    
+            var marker_dd39e80bbd4edd950fa2c09cf9876cc1 = L.marker(
+                [24.555059, -81.779984],
+                {}
+            ).addTo(marker_cluster_4477d1ca941ae4333170947bc66a37e4);
+        
+    
+        var popup_da53cff7baceac06fe8972eac7a61103 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6e0018d2e231892737eda49b787fa608 = $(`<div id="html_6e0018d2e231892737eda49b787fa608" style="width: 100.0%; height: 100.0%;"><NA></div>`)[0];
+            popup_da53cff7baceac06fe8972eac7a61103.setContent(html_6e0018d2e231892737eda49b787fa608);
+        
+
+        marker_dd39e80bbd4edd950fa2c09cf9876cc1.bindPopup(popup_da53cff7baceac06fe8972eac7a61103)
+        ;
+
+        
+    
+    
+            var marker_9680c918417ebd53ee946ee3e0b540c2 = L.marker(
+                [43.37172, -1.77382],
+                {}
+            ).addTo(marker_cluster_4477d1ca941ae4333170947bc66a37e4);
+        
+    
+        var popup_02f0ba6c8827eea6df03509dc6c73f24 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2a735a2c4e33bb8c98f4ec214a70c5ec = $(`<div id="html_2a735a2c4e33bb8c98f4ec214a70c5ec" style="width: 100.0%; height: 100.0%;"><NA></div>`)[0];
+            popup_02f0ba6c8827eea6df03509dc6c73f24.setContent(html_2a735a2c4e33bb8c98f4ec214a70c5ec);
+        
+
+        marker_9680c918417ebd53ee946ee3e0b540c2.bindPopup(popup_02f0ba6c8827eea6df03509dc6c73f24)
+        ;
+
+        
+    
+</script>
+</html>
